@@ -1,0 +1,93 @@
+/* main.css */
+html, head, link, body, div, p, h1, h2, h3, h4, ul, ol, li{
+	padding:0;
+	border:0;
+	margin:0;
+	font-size:100%;
+	list-style-type: none;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1{
+	font-family:verdana, sans-serif;
+	text-align: center;
+	font-size: 60px;
+	width: 800px;
+	margin:0 auto 0 auto;
+	padding:30px 0 30px 0;
+
+}
+h2{
+	font-family:verdana, sans-serif;
+	text-align: center;
+	font-size: 40px;
+	width: 800px;
+	margin:0 auto 0 auto;
+	padding:15px 0 15px 0;
+}
+h3{
+	font-family:verdana, sans-serif;
+	text-align: center;
+	font-size:25px;
+	border-bottom: 1px solid black;
+	margin-bottom: 15px;
+}
+p{
+	font-family:verdana, sans-serif;
+	font-size: 15px;
+}
+.title, .subtitle{
+	background-color: #333333;
+	position: center;
+	margin:0 auto 0 auto;
+	}
+.subtitle{
+	background-color: #666666;
+	margin-bottom: 40px;
+}
+
+.life, .music{
+	width: 800px;
+	margin:0 auto 40px auto;
+	}
+.music{
+	display: block;
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+.life p{
+	clear: both;
+	text-align: center;
+}
+.music img{
+	width: 100%;
+}
+
+.music p {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.music li {
+	overflow: hidden;
+	float: left;
+	display: block;
+	width: 30%;
+	margin: 25px 1.5%;
+}
+
+.music li:hover {
+	background-color: red;
+}
+
+ul {
+	clear: both;
+	overflow: hidden;
+}
