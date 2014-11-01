@@ -3,6 +3,7 @@
 	width: 70%;
 	margin: 0 auto;
 	font-family:verdana, sans-serif;
+	font-size: 30px;
 }
 
 h1, h2, h3{
@@ -10,26 +11,26 @@ h1, h2, h3{
 }
 
 h1{
-	font-size: 60px;
+	font-size: 100%;
 	width: 100%;
 	padding:30px 0 30px 0;
 
 }
 
 h2{
-	font-size: 40px;
+	font-size: 90%;
 	width: 100%;
 	padding:15px 0 15px 0;
 }
 
 h3{
-	font-size:25px;
+	font-size:70%;
 	border-bottom: 1px solid black;
 	margin-bottom: 15px;
 }
 
 p{
-	font-size: 15px;
+	font-size: 50%;
 }
 .title, .subtitle{
 	background-color: #333333;
@@ -67,7 +68,7 @@ p{
 }
 
 .music p {
-	font-size: 30px;
+	font-size: 60%;
 	color: #000000;
 	text-align: center;
 	margin-top: 10px;
