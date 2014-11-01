@@ -18,12 +18,11 @@
 .music li {
 	float: left;
 	border: 1px solid black;
-	
-	margin: 25px 1.5%;
 	display: block;
 }
 
 .music img{
+	width: 80%;
 	height: 302px;
 	
 }
