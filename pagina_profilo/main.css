@@ -6,21 +6,32 @@
 	font-size: 30px;
 }
 
+.title, .subtitle{
+	position: center;
+	width: 100%;
+}
+
+.title{
+	background-color: #333333;
+}
+
+.subtitle{
+	background-color: #666666;
+	margin-bottom: 40px;
+}
+
 h1, h2, h3{
 	text-align: center;
 }
 
 h1{
 	font-size: 100%;
-	width: 100%;
-	padding:30px 0 30px 0;
-
+	padding:30px 0;
 }
 
 h2{
 	font-size: 90%;
-	width: 100%;
-	padding:15px 0 15px 0;
+	padding:15px 0;
 }
 
 h3{
@@ -32,29 +43,14 @@ h3{
 p{
 	font-size: 50%;
 }
-.title, .subtitle{
-	background-color: #333333;
-	position: center;
-	margin:0 auto 0 auto;
-	}
-.subtitle{
-	background-color: #666666;
-	margin-bottom: 40px;
-}
 
 .life, .music{
 	width: 100%;
 	margin:0 auto 40px auto;
-	}
+}
 
 .life p{
 	text-align: center;
-}
-
-.music{
-	width: 100%;
-	margin: 0 auto;
-	margin-bottom: 100px;
 }
 
 .music li {
