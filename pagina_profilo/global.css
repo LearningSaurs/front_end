@@ -1,0 +1,64 @@
+.container {
+	width: 70%;
+	margin: 0 auto;
+	font-family:verdana, sans-serif;
+	font-size: 30px;
+}
+.title, .subtitle{
+	position: center;
+	width: 100%;
+}
+
+.title{
+	background-color: #333333;
+}
+
+.subtitle{
+	background-color: #666666;
+	margin-bottom: 40px;
+}
+
+.menu{
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.menu li{
+	background-color: rgb(30, 120, 78);
+	float: left;
+	border: 1px solid black;
+	margin: 0;
+	padding: 1% 2%;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+}
+
+.menu li:hover{
+	background-color: red;
+
+}
+h1, h2, h3{
+	text-align: center;
+}
+
+h1{
+	color: white !important;
+	font-size: 100%;
+	padding:30px 0;
+}
+
+h2{
+	font-size: 90%;
+	padding:15px 0;
+}
+
+h3{
+	font-size:70%;
+	border-bottom: 1px solid black;
+	margin-bottom: 15px;
+}
+
+p{
+	font-size: 50%;
+}
