@@ -20,6 +20,30 @@
 	margin-bottom: 40px;
 }
 
+.menu{
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.menu li{
+	background-color: rgb(30, 120, 78);
+	float: left;
+	border: 1px solid black;
+	margin: 0;
+	padding: 1% 2%;
+	width: 20%;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+}
+
+.menu li:hover{
+	background-color: red;
+}
+.life{
+	clear: left;
+}
+
 h1, h2, h3{
 	text-align: center;
 }
